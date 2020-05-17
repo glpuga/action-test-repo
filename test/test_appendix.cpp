@@ -147,7 +147,7 @@ TEST_F(EkuVectorAppendix, DontForgetTheVirtualDestructor) {
     std::unique_ptr<BaseWithNoVirtualDestructor> base_ref_2 =
         std::make_unique<DerivedWithNoVirtualDestructor>(obj2);
 
-    EXPECT_EQ(4, obj1.use_count());
+    EXPECT_EQ(2, obj1.use_count());
     EXPECT_EQ(2, obj2.use_count());
   }
 
