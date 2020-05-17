@@ -1,8 +1,8 @@
 ## C++ L2 Challenge
 
-* master: ![CI master](https://github.com/glpuga/action-test-repo/workflows/CI/badge.svg?branch=master)
-* devel: ![CI devel](https://github.com/glpuga/action-test-repo/workflows/CI/badge.svg?branch=devel)
-* this branch: ![CI this branch](https://github.com/glpuga/action-test-repo/workflows/CI/badge.svg)
+* ![CI master](https://github.com/glpuga/action-test-repo/workflows/CI/badge.svg?branch=master) master CI
+* ![CI devel](https://github.com/glpuga/action-test-repo/workflows/CI/badge.svg?branch=devel) devel CI
+* ![CI this branch](https://github.com/glpuga/action-test-repo/workflows/CI/badge.svg) this branch CI
 
 This repo contains a solution to the CPP L2 challenge that proposed to reimplement a C++11 standard library container. The *std::vector* container was chosen for reimplementation.
 
