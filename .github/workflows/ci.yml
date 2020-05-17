@@ -25,6 +25,7 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Build and test
       run: |
+        mkdir build
         cd build
         cmake ..
         make
